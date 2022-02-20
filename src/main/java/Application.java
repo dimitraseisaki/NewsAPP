@@ -8,7 +8,7 @@ import model.thenewsdb.LocationResult;
 import services.LocationAPIService;
 import services.NewsAPIService;
 
-//η κλασή αυτή δημιουργεί την κοσνόλα που θα εμφανίζει τα αποτελέσματα
+//οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½ οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½
 public class Application {
 	
 	public static void main(String[] args) throws NewsAPIException {
@@ -17,9 +17,9 @@ public class Application {
      
      System.out.println("Welcome to NewsAPP!");
      
-     //χρησιμοποιώ το while για την επανάληψη μετά από την επιλογή ενός αποτελέσματος 
+     //οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½ while οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ 
      while (true) {
-     //ο χρήστης κάνει επιλογή μία από τις παρακάτω εκτυπώσεις
+     //οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½
      System.out.println("Select one of the following");
      System.out.println("1a. Show the top headlines for a country:");
      System.out.println("1b. Show the top headlines for a category:");
@@ -32,11 +32,11 @@ public class Application {
      System.out.println("Your input");
      
 
-     Scanner sc = new Scanner(System.in); //το χρησιμοποιούμε για ανάγνωση από την κονσόλα
+     Scanner sc = new Scanner(System.in); //οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½
      String input= sc.nextLine();
      System.out.println("Your input:"+input);
      
-     //περιπτώσεις που μπορεί να εκτελέσει ο χρήστης και τι του ζητείται να πληκτρολογήσει γιανα εμφανίσει αποτελέσματα
+     //οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½ οΏ½οΏ½ οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½
      switch(input) {
      case "1a":
     
@@ -130,7 +130,7 @@ public class Application {
     	 break;
     	 
      case "3":
-    	 //γράφω το api key που είναι γραμμένο στο NewsAPITest   
+    	 //οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½ api key οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½οΏ½ οΏ½οΏ½οΏ½ NewsAPITest   
     	 System.out.println("Enter your api key:");
     	 String api_key = sc.nextLine();
     		final LocationAPIService newsSearchService1= LocationAPI.getLocationAPIService();
@@ -147,8 +147,9 @@ public class Application {
     	 break;
     	 
      case "4":
-			//System.exit(0);
+	
 			System.out.println("End programm!");
+			System.exit(0);
 			break;
 		default:
 			System.out.println("Invalid input");
